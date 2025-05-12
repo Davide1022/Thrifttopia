@@ -95,9 +95,9 @@
       margin-bottom: 20px;
     }
 
-    .intro p {
-      line-height: 1.6;
-      margin-bottom: 15px;
+    .intro p, .why-choose-us p, .philosophy p {
+      line-height: 1.6; /* 调整行高 */
+      margin-bottom: 15px; /* 调整段落间距 */
     }
 
     .intro ul {
@@ -133,6 +133,15 @@
 
     .why-choose-us ul li {
       margin-bottom: 10px;
+    }
+
+    .philosophy {
+      padding: 40px;
+      background-color: #ffffff;
+      max-width: 900px;
+      margin: 20px auto;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
   </style>
 </head>
@@ -183,15 +192,8 @@
     </ul>
   </section>
 
-  <section id="shop">
-    <h2>Featured Items</h2>
-    <h3>Books</h3>
-    <img src="pexels-artem-beliaikin-2765617-scaled.jpg" alt="Second-hand Books">
-    <h3>Clothing</h3>
-    <img src="8_二手衣服買賣平台_4.png" alt="Second-hand Clothes">
-  </section>
-
-  <section id="about">
+  <!-- Philosophy Section -->
+  <section id="about" class="philosophy">
     <h2>Our Philosophy</h2>
     <p>We believe that every old thing carries a unique story and value. We are committed to carrying on these stories and allowing them to shine with new luster in the hands of new owners. By giving new life to old things, we hope to convey the concept of an environmentally friendly and sustainable lifestyle and create more value for society.</p>
   </section>
