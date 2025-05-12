@@ -57,6 +57,70 @@
       text-align: center;
       padding: 15px;
     }
+
+    .intro {
+      padding: 40px;
+      background-color: #ffffff;
+      max-width: 900px;
+      margin: 20px auto;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .intro h2 {
+      color: #2c3e50;
+      margin-bottom: 20px;
+    }
+
+    .intro p {
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+
+    .intro ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .intro ul li {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .intro ul li::before {
+      content: '✔';
+      color: #27ae60;
+      margin-right: 10px;
+    }
+
+    .why-choose-us {
+      padding: 40px;
+      background-color: #ffffff;
+      max-width: 900px;
+      margin: 20px auto;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .why-choose-us h2 {
+      color: #2c3e50; /* 改成与其他标题一致的颜色 */
+      margin-bottom: 20px;
+    }
+
+    .why-choose-us h3 {
+      color: #2c3e50; /* 改成与其他标题一致的颜色 */
+      margin-bottom: 20px;
+    }
+
+    .why-choose-us ul {
+      list-style: disc; /* 使用普通的项目符号 */
+      padding-left: 20px;
+    }
+
+    .why-choose-us ul li {
+      margin-bottom: 10px;
+    }
   </style>
 </head>
 
@@ -65,17 +129,43 @@
     <h1>Welcome to Thriftopia</h1>
     <nav>
       <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a href="#intro">Our Story</a></li>
         <li><a href="#shop">Shop</a></li>
+        <li><a href="#about">Philosophy</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <section id="home">
-    <h2>Live Simply. Live Sustainably.</h2>
-    <p>Thriftopia promotes a circular economy by offering a curated selection of second-hand books and clothes to students and eco-conscious shoppers.</p>
+  <!-- New Intro Section -->
+  <section id="intro" class="intro">
+    <h2>Our Story</h2>
+    <h3>The Concept of Giving New Life to Old Things</h3>
+    <p>We are dedicated to promoting a sustainable lifestyle by offering high-quality second-hand goods, reducing waste, and protecting the environment.</p>
+    <p>Our goal is to find new homes for every old item, allowing them to shine again and add unique value to your life.</p>
+    <p>We believe that with your support, our initiative can become a community full of love and environmental awareness.</p>
+    <ul>
+      <li><span class="highlight">Carefully Selected</span> – Each item is strictly screened to ensure quality.</li>
+      <li><span class="highlight">Great Value</span> – Enjoy high-quality items at affordable prices.</li>
+      <li><span class="highlight">Eco-friendly Cause</span> – Your purchase also supports environmental protection.</li>
+    </ul>
+    <p>Join us in exploring the charm of old items and feel the power of environmental protection!</p>
+    <p>Let's create a better future together, starting with giving new life to old things.</p>
+  </section>
+
+  <!-- Why Choose Us Section -->
+  <section class="why-choose-us">
+    <h3>Why Choose Us?</h3>
+    <h2>Quality Assurance, Great Value</h2>
+    <p>We are committed to providing you with high-quality second-hand goods and a pleasant shopping experience.</p>
+    <ul>
+      <li><strong>Carefully Selected</strong> – We only select high-quality, well-preserved second-hand items to ensure your satisfaction.</li>
+      <li><strong>Eco-Friendly Choice</strong> – Buy second-hand goods, reduce waste, and contribute to environmental protection.</li>
+      <li><strong>Convenient Shopping</strong> – A clear and straightforward shopping process allows you to easily choose your desired items.</li>
+      <li><strong>Great Value</strong> – Get high-quality products at lower prices, enjoy a value-packed shopping experience.</li>
+      <li><strong>Unique Discoveries</strong> – Here, you can find one-of-a-kind items that showcase your personality and taste.</li>
+      <li><strong>Safety Guarantee</strong> – We offer secure payment methods and comprehensive after-sales service for worry-free shopping.</li>
+    </ul>
   </section>
 
   <section id="shop">
